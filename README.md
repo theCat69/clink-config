@@ -1,3 +1,3 @@
-# My clink config
+# :smirk_cat: The Cat clink config :smirk_cat:
 
-> :warning: **WIP** Don't use this as an example
+Just simply amazing.
