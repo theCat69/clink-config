@@ -2,6 +2,7 @@ local cyan   = "\x1b[36m"
 local green  = "\x1b[92m"
 local normal = "\x1b[m"
 
+-- git stuff
 local is_git_repo = ""
 
 local is_git_repo_prompt = clink.promptfilter(10)
