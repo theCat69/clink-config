@@ -1,4 +1,3 @@
-lsl=ls -ltr
 ex=explorer .
 vim=nvim $*
 jv=bf-j-vm $*
@@ -7,3 +6,7 @@ ij=idea64 .
 gd=cd %DEV%
 cdi=zi
 grep=rg $*
+ls=eza $*
+ll=eza -l
+lsl=eza -l --sort oldest
+cat=bat -p $*
