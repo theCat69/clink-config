@@ -21,3 +21,6 @@ ga=git add . $*
 gc=git commit -m $*
 gi=git init $*
 gb=git branch -a $*
+hh=npx hardhat $*
+npi=npm install $*
+npid=npm instal --save-dev $* 
