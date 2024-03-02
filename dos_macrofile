@@ -10,6 +10,8 @@ ls=eza $*
 ll=eza -la
 lsl=eza -la --sort oldest
 cat=bat --pager=never -p $*
+bathelp=bat --plain --language=help $*
+fzfb=fzf --preview "bat --color=always --style=numbers --line-range=:500 {}" $*
 gp=git push $*
 gpl=git pull $*
 gplr=git pull --rebase $*
