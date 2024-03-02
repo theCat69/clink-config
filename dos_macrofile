@@ -9,7 +9,7 @@ grep=rg $*
 ls=eza $*
 ll=eza -la
 lsl=eza -la --sort oldest
-cat=bat -p $*
+cat=bat --pager=never -p $*
 gp=git push $*
 gpl=git pull $*
 gplr=git pull --rebase $*
