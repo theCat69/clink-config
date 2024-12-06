@@ -2,7 +2,8 @@ ex=explorer .
 vim=nvim $*
 jv=bf-j-vm $*
 ij=idea64 .
-gd=cd %DEV%
+god=cd %DEV%
+goh=cd %HOME%
 cdi=zi
 grep=rg $*
 rgb=rg --line-number --no-heading --color=always --smart-case $* | fzf -d ":" -n 2.. --ansi --no-sort --preview-window "up:40%:+{2}:~7" --preview "bat --style=numbers --color=always --highlight-line {2} {1}"
@@ -13,17 +14,18 @@ cat=bat --pager=never -p $*
 bathelp=bat --plain --language=help $*
 fzfb=fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"
 fzfv=fzf --preview "bat --color=always --style=numbers --line-range=:500 {}" | xargs nvim
-gp=git push $*
-gpl=git pull $*
-gplr=git pull --rebase $*
-gr=git rebase $*
-gm=git mergetool $*
-gd=git diff $*
-grm=git rm $*
-ga=git add . $*
-gc=git commit -m $*
-gi=git init $*
-gb=git branch -a $*
+gip=git push $*
+gipl=git pull $*
+giplr=git pull --rebase $*
+gir=git rebase $*
+gim=git mergetool $*
+gid=git diff $*
+girm=git rm $*
+gia=git add . $*
+gic=git commit -m $*
+gii=git init $*
+gib=git branch -a $*
 hh=npx hardhat $*
 npi=npm install $*
 npid=npm instal --save-dev $* 
+keys=cat %DOTFILES%\.config\clink\dos_macrofile
