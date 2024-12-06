@@ -1,7 +1,6 @@
 ex=explorer .
 vim=nvim $*
 jv=bf-j-vm $*
-docker=podman $*
 ij=idea64 .
 gd=cd %DEV%
 cdi=zi
