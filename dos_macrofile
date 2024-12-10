@@ -27,5 +27,5 @@ gii=git init $*
 gib=git branch -a $*
 hh=npx hardhat $*
 npi=npm install $*
-npid=npm instal --save-dev $* 
+npid=npm install --save-dev $* 
 keys=cat %DOTFILES%\.config\clink\dos_macrofile
