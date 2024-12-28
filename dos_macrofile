@@ -28,4 +28,5 @@ gib=git branch -a $*
 hh=npx hardhat $*
 npi=npm install $*
 npid=npm install --save-dev $* 
+topgrade=eledo topgrade $*
 keys=cat %DOTFILES%\.config\clink\dos_macrofile
