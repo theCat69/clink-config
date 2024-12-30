@@ -29,4 +29,7 @@ hh=npx hardhat $*
 npi=npm install $*
 npid=npm install --save-dev $* 
 topgrade=eledo topgrade $*
+dops=docker ps -a
+dokil=docker stop $1 && docker rm $1
+dor=docker run $*
 keys=cat %DOTFILES%\.config\clink\dos_macrofile
