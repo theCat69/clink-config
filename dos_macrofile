@@ -4,6 +4,7 @@ jv=bf-j-vm $*
 ij=idea64 .
 god=cd %DEV%
 goh=cd %HOME%
+cdd=cd $*
 cdi=zi
 grep=rg $*
 rgb=rg --line-number --no-heading --color=always --smart-case $* | fzf -d ":" -n 2.. --ansi --no-sort --preview-window "up:40%:+{2}:~7" --preview "bat --style=numbers --color=always --highlight-line {2} {1}"
