@@ -33,4 +33,5 @@ topgrade=eledo topgrade $*
 dops=docker ps -a
 dokil=docker stop $1 && docker rm $1
 dor=docker run $*
+ezh=tldr $* | bat -p -l bash
 keys=bat --plain --pager=never --language=.env %DOTFILES%\.config\clink\dos_macrofile
